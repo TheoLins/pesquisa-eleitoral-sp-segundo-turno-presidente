@@ -1,6 +1,7 @@
 newFunction();
 function newFunction() {
     document.addEventListener("DOMContentLoaded", () => {
+        // 1. LINHAS SUBSTITUÍDAS: Agora cada número tem um nome E um link de foto (fotoUrl)
         const candidatosData = {
             presidente: {
                 titulo: "Presidente da República",
@@ -50,6 +51,7 @@ function newFunction() {
             });
         });
 
+        // 2. LINHAS SUBSTITUÍDAS: Nova função que aplica o link da fotoUrl no quadrado do HTML com validação de número inválido
         function verificarFoto(inputs, cargoType, container, img) {
             let numero = "";
             let completo = true;
