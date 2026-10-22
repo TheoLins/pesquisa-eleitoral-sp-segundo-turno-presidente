@@ -63,7 +63,7 @@ function newFunction() {
                     container.classList.add("active");
                 } else {
                     // Alerta caso o número digitado não exista na tabela/código
-                    alert("Número inválido! Tente os numeros destacados em verde na tabela com a bandeira de São Paulo!");
+                    alert("Número inválido! Tente os numeros destacados em verde na tabela com a bandeira do Brasil!");
                     
                     // Limpa apenas as caixas do bloco atual para redigitação
                     inputs.forEach(i => i.value = "");
